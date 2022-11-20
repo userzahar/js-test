@@ -62,15 +62,86 @@
 // }
 
 // console.log(sum);
-function findLongestWord(string) {
+// function findLongestWord(string) {
+//     // Change code below this line
+//     let splitString = string.split(" ")
+//     fo
+//     }
+  
+  
+  
+//     // Change code above this line
+// }
+  
+// // 'zбвко дороа ааааа сссссссс';
+// function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+//     // Change code below this line
+//     for (let i=min; i < max; i += 1) {
+//         numbers.push(i);
+//       }
+//     // Change code above this line
+//     return numbers;
+// }
+// console.log(createArrayOfNumbers(3, 10));
+  
+// function getCommonElements(array1, array2) {
+//     // Change code below this line
+//   //   let newElement = [];
+//   // for (let i = 0; i < array1.length; i+=1) {
+//   //   for( let z = 0; z < array2; z+=1){
+//   //       if(array1[i] === array2[z]){
+//   //       newElement.push(array1[i]);
+//   //     }
+//   //   }
+    
+//   // }
+    
+//   return array1.includes(array2);
+  
+//    // Change code above this line
+// }
+// console.log(getCommonElements(['3','4'], ['3','5']))
+// let array1 = [2, 3, 4, 5, 44, 77, 55];
+// let array2 = [3, 6, 5, 7, 55, 66];
+// let next = [];
+// for (let i = 0; i < array2.length; i += 1){
+    
+//     console.log(array1.includes(array2[i]));
+
+//     if (array1.includes(array2[i]) === true){
+//       next.push(array2[i]);
+//     }
+
+// }
+// console.log(next);
+// function getCommonElements(array1, array2) {
+
+//   let next = [];
+//   for (let i = 0; i < array2.length; i += 1){
+      
+//       console.log(array1.includes(array2[i]));
+  
+//       if (array1.includes(array2[i]) === true){
+//         next.push(array2[i]);
+//       }
+  
+//   }
+    
+//   return next;
+  
+
+// }
+//   console.log(getCommonElements([1, 2, 3], [2, 4]))
+function getEvenNumbers(start, end) {
     // Change code below this line
-    let splitString = string.split(" ")
-    fo
+   let numbers = [];
+    for (let i = start; i <= end; i += 1) {
+        if (i % 2 === 0) {
+            numbers.push(i);    
+        }
     }
-  
-  
-  
-    // Change code above this line
-}
-  
-// 'zбвко дороа ааааа сссссссс';
+    return numbers;
+        
+    }
+    console.log(getEvenNumbers(3, 9));

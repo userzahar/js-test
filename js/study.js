@@ -133,15 +133,31 @@
 
 // }
 //   console.log(getCommonElements([1, 2, 3], [2, 4]))
-function getEvenNumbers(start, end) {
-    // Change code below this line
-   let numbers = [];
-    for (let i = start; i <= end; i += 1) {
-        if (i % 2 === 0) {
-            numbers.push(i);    
-        }
-    }
-    return numbers;
+// function getEvenNumbers(start, end) {
+//     // Change code below this line
+//    let numbers = [];
+//     for (let i = start; i <= end; i += 1) {
+//         if (i % 2 === 0) {
+//             numbers.push(i);
+//         }
+//     }
+//     return numbers;
         
-    }
-    console.log(getEvenNumbers(3, 9));
+//     }
+//     console.log(getEvenNumbers(3, 9));
+const salaries = {
+    frenk: 200,
+    stiv: 300,
+    iohan: 5
+}
+
+console.log(countTotalSalary(salaries))
+function countTotalSalary(salaries) {
+    let totalSalary = 0;
+    // Change code below this line
+  let priceAll = Object.values(salaries);
+    for(let price of priceAll) {totalSalary += price;}
+    // Change code above this line
+    return totalSalary;
+}
+  

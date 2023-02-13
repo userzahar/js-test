@@ -31,7 +31,6 @@
 //     }
 //     return sum;
 
-
 //      // Change code above this line
 // }
 // console.log(calculateTotal(10));
@@ -67,8 +66,6 @@
 //     let splitString = string.split(" ")
 //     fo
 //     }
-
-
 
 //     // Change code above this line
 // }
@@ -130,7 +127,6 @@
 
 //   return next;
 
-
 // }
 //   console.log(getCommonElements([1, 2, 3], [2, 4]))
 // function getEvenNumbers(start, end) {
@@ -182,7 +178,6 @@
 //         getValues.push(product[key]);
 //         // console.log(lol);
 
-
 //       }
 //     }
 //   }
@@ -214,7 +209,6 @@
 // назву книги з oldName на newName у властивості books.Використовуй indexOf() для
 // того, щоб знайти потрібний елемент масиву, і splice() для того, щоб замінити цей елемент.
 
-
 // знайти індекс потрібного елементу indexOf()
 // олднейм це значення у масиві букс
 // splice(індекс елемента який треба замінити, кіль-сть елементів які треба замінити, новий елемент (ньюНаме))
@@ -230,11 +224,6 @@
 //         return this.books;
 //       }
 //     }
-
-
-
-
-
 
 //     // Change code above this line
 //   },
@@ -305,7 +294,6 @@
 // }
 // console.log(calculateTotalPrice([12, 85, 37, 4]));
 // console.log(calculateTotalPrice.forEach);\
-
 
 // const users = [
 //   {
@@ -475,7 +463,7 @@
 //   },
 // ]));
 // const players = [
-  
+
 //   { name: "Poly", playtime: 469, gamesPlayed: 2 },
 //   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
 //   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
@@ -494,20 +482,10 @@
 //   return users.reduce((allFriends, user) => {
 //     return [...allFriends, ...user.friends]
 //   }, []).length
-  
-  
-  
-  
-  
-    
+
 //      // return users.flatMap(user => user.friends).length
-  
-  
-  
-  
+
 //   };
-
-
 
 //   console.log(getTotalFriendCount([
 //     {
@@ -600,7 +578,7 @@
 // //   return changeBook.lokaleCompare(secondBook);
 // // });
 // const sortedByAuthorName = [...books].sort((a, b) => {
-  
+
 //   return a.lokaleCompare(b);
 // });
 
@@ -659,7 +637,6 @@
 
 // const sortedByDescentingRating = [...books].sort((a, b) => b.rating - a.rating);
 
-
 // console.log(sortedByAuthorName);
 // console.log(sortedByReversedAuthorName);
 // console.log(sortedByAscendingRating);
@@ -699,7 +676,7 @@
 // const getNamesSortedByFriendCount = users => {
 //   return [...users].sort((a, b) => a.friends.length - b.friends.length)
 //   .map(names => names.name)
-   
+
 // };
 
 // console.log(getNamesSortedByFriendCount([
@@ -821,8 +798,6 @@
 //       return student.name;
 //     }
 //   })
-  
-
 
 // }
 // console.log(studentsLanguage(students, html))
@@ -830,7 +805,7 @@
 // function getArrNames(userName, searchLanguage) {
 //   const Arr = [];
 //   for (const item of userName) {
-    
+
 //     // console.log(item);
 //     if (item.language === searchLanguage)
 //       Arr.push(item.name)
@@ -838,8 +813,6 @@
 //   return Arr;
 // }
 // console.log(getArrNames(students, "html"))
-
-
 
 // Порахувати скільки заробив кожен  юзер
 // (функція приймає 2 параметри
@@ -869,7 +842,7 @@
 // console.log("%c 🎱: //getFriends -> workers ", "font-size:16px;background-color:#e197f8;color:white;", workers)
 // function userSalary(workers, userName) {
 //   const { salary, month } = workers.find(({ name }) => name === userName);
-  
+
 //   console.log({ salary, month });
 //     console.log("%c 🌊: userSalary", console);
 //   return salary * month
@@ -882,7 +855,6 @@
 // function totalUserSalary(workers) {
 // return workers.reduce((acc, {salary, month}) => acc + salary * month, 0)
 
-
 // //   const result = workers.reduce((acc, elem) => {
 // //     return acc + elem.salary * elem.month
 // // }, 0)
@@ -893,12 +865,10 @@
 
 // !--------------------
 
-
 // Створити функцію яка приймає 1 параметр масив продуктів і повертає мутований масив
 // Потрібно перебрати масив і якщо він має об'єкти в яких дублюються айді то квонтіті цих елементів потрібно сплюсувати
 // а ті обє'кти в яких айді співпав видалити з масиву.
 // (Потрібно мутувати масив, створювати новий не потрібно)
-
 
 //
 
@@ -925,7 +895,6 @@
 //     qty: 1,
 //   }]
 
-
 // function getNewProducts(products) {
 //    for (let i = 0; i < products.length; i += 1){
 //      for (let u = i + 1; u < products.length; u += 1)
@@ -937,9 +906,8 @@
 //     }
 //   return products;
 // }
- 
-// console.log(getNewProducts(products));
 
+// console.log(getNewProducts(products));
 
 // !.......................
 // const users = [
@@ -1011,9 +979,16 @@
 // const getTotalBalanceByGender = (users, gender) => {
 //   const lol = users.filter(elem => elem.gender === gender)
 
-  
 //     .reduce((acc, elem) => acc + elem.balance, 0);
 //   return lol;
 // };
 
 // console.log(getTotalBalanceByGender(users, "female"));
+
+const divs = document.querySelector(".animation");
+
+divs.addEventListener("click", addAnimation);
+
+function addAnimation() {
+  divs.classList.add("js-color");
+}

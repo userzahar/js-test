@@ -10,33 +10,30 @@ iconX.addEventListener("click", onXClick);
 let flag = false;
 
 function onGamburgerClick() {
-  gamburgerMenu.hidden = true;
-  iconX.style.display = "block";
-  block.style.display = "block";
-  searchIcon.style.display = "none";
-  searchIcon.hidden = false;
-  gamburgerMenu.style.display = "none";
-  searchInput.hidden = true;
-  searchIcon.classList.remove("search-icon--active");
+  gamburgerMenu.classList.add("is-hidden");
+  iconX.classList.remove("is-hidden");
+  block.classList.remove("is-hidden");
+  searchIcon.classList.add("is-hidden");
+  searchInput.classList.add("is-hidden");
+  searchIcon.classList.remove("search-icon--active"); //??
 }
 
 function onXClick() {
-  iconX.style.display = "none";
-  gamburgerMenu.style.display = "flex";
-  searchIcon.style.display = "flex";
-  searchIcon.hidden = false;
-  block.style.display = "none";
+  iconX.classList.add("is-hidden");
+  gamburgerMenu.classList.remove("is-hidden");
+  searchIcon.classList.remove("is-hidden");
+  block.classList.add("is-hidden");
   flag = false;
 }
 
 function onSearchClick() {
   if (flag === false) {
     flag = true;
-    searchInput.hidden = false;
+    searchInput.classList.remove("is-hidden");
     searchIcon.classList.add("search-icon--active");
   } else {
     flag = false;
     searchIcon.classList.remove("search-icon--active");
-    searchInput.hidden = true;
+    searchInput.classList.add("is-hidden");
   }
 }

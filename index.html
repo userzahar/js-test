@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ! лінк для гамбургер -->
     <link rel="stylesheet" href="./css/gamburger.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- ? лінк для гамбургер -->
     <title>Document</title>
@@ -20,7 +21,7 @@
 <!-- !гамбургер меню -->
 <header class="topnav">
     <a href="#home" class="active">News</a>
-    <nav id="myLinks" class="topnav-list">
+    <nav id="myLinks" class="topnav-list is-hidden">
         <ul>
             <li>
                 <a href="#news" class="topnav-link">
@@ -46,7 +47,7 @@
         </ul>
     </nav>
     <div class="topnav-thumb">
-        <input type="text" name="search" placeholder="Search |" class="topnav-search js-input" hidden />
+        <input type="text" name="search" placeholder="Search |" class="topnav-search js-input is-hidden" />
         <svg width="24" height="24" class="search-icon js-icon">
             <use href="./img/symbol-defs.svg#icon-slash" ></use>
         </svg>
@@ -55,7 +56,7 @@
                 <use href="./img/symbol-defs.svg#icon-slash" ></use>
             </svg>
         </a>    
-        <svg class="icon-x" width="24" height="24">
+        <svg class="icon-x is-hidden" width="24" height="24">
             <use href="./img/symbol-defs.svg#icon-x"></use>
         </svg>
     </div>
@@ -66,6 +67,6 @@
 <script defer type="module" src="./js/gamburger.js"></script>
 <!-- <script defer type="module" src="./js/test.js"></script> -->
 
-<!-- <script defer type="module" src="./js/study.js"></script> -->
+<script defer type="module" src="./js/study.js"></script>
 
 </html>

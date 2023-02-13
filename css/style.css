@@ -1,0 +1,7 @@
+.animation{
+   background-color: aqua;
+   transition: background-color 1000ms linear;
+}
+.js-color{
+    background-color: blue;
+}

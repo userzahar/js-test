@@ -67,6 +67,7 @@
     border-radius: 20px;
     opacity: 1;
     visibility: visible;
+    transition: visibility 500ms linear;
   }
     .search-icon{
         cursor: pointer;
@@ -90,7 +91,6 @@
   }
 
 .is-hidden {
-  width: -1px;
   opacity: 0;
   pointer-events: none;
   position: absolute;

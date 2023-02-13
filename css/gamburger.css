@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 24px 16px;
     height: 81px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
   .topnav-list {
     display: none;
@@ -13,6 +14,7 @@
     top: 125px;
     left:0;
     width: 100%;
+    background-color: white;
   }
   .topnav ul{
     margin: 0;

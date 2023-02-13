@@ -124,8 +124,8 @@
 
 // ! геолокаааааааааааааааааааааааааація
 // через weather api
-function error(err) {
-  console.warn(`ERROR(${err.code}): ${err.message}`);
-}
+// function error(err) {
+//   console.warn(`ERROR(${err.code}): ${err.message}`);
+// }
 // ! завданняяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя
 // https://docs.google.com/presentation/d/1alj1TPBpcqiRLg1EV74cYD6dFts-TPMy/edit#slide=id.p6

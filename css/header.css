@@ -28,7 +28,7 @@
     list-style-type: none;
   }
   .topnav li:hover{
-    background-color: rgba(68, 64, 246, 1);
+    background-color: #4440F6;
     color: white;
   }
   .topnav-link{

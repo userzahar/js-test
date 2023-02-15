@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ! лінк для гамбургер -->
+<!-- !css -->
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/tumbler.css">
+    <link rel="stylesheet" href="./css/pagination.css">
+    <!-- !css -->
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <!-- ? лінк для гамбургер -->
     <title>Document</title>
 </head>
 <body>
@@ -19,8 +20,8 @@
 <button class="load-more" hidden>Load more</button>
 <div class="js-guard"></div> -->
 <!-- ? безкінечний скролл в тест.джс -->
-<!-- !гамбургер меню -->
-<div class="topnav">
+<!-- !header -->
+<div class="container topnav">
     <a href="#home" class="active">News</a>
     <nav id="myLinks" class="topnav-list is-hidden">
         <ul>
@@ -74,12 +75,18 @@
         </svg>
     </div>
 </div>
-<!-- ?гамбургер меню -->
+<!-- !header -->
+<!-- *пагінація -->
+<div class="gallery">
+    <div class="posts"></div>
+    <div class="pagination"></div> 
+</div>
+<!-- *пагінація -->
 
 </body>
 <script defer type="module" src="./js/gamburger.js"></script>
+<script type="module" src="./js/pagination.js"></script>
 <!-- <script defer type="module" src="./js/test.js"></script> -->
-
 <!-- <script defer type="module" src="./js/study.js"></script> -->
 
 </html>

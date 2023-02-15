@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ! лінк для гамбургер -->
-    <link rel="stylesheet" href="./css/gamburger.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/tumbler.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- ? лінк для гамбургер -->
@@ -19,7 +20,7 @@
 <div class="js-guard"></div> -->
 <!-- ? безкінечний скролл в тест.джс -->
 <!-- !гамбургер меню -->
-<header class="topnav">
+<div class="topnav">
     <a href="#home" class="active">News</a>
     <nav id="myLinks" class="topnav-list is-hidden">
         <ul>
@@ -46,19 +47,6 @@
             </li>
         </ul>
     </nav>
-    <div class="theme is-hidden">
-        <svg width="21" height="21">
-            <use href="./img/symbol-defs.svg#icon-slash" ></use>
-        </svg>
-        <label class="switch">
-            <input type="checkbox" class="switch-btn">
-            <span class="slider round"></span>
-        </label>
-        <svg width="21" height="21">
-            <use href="./img/symbol-defs.svg#icon-slash"></use>
-        </svg>
-    </div>
-</div>
     <div class="topnav-thumb">
         <input type="text" name="search" placeholder="Search |" class="topnav-search js-input is-hidden" />
         <svg width="24" height="24" class="search-icon js-icon">
@@ -72,12 +60,24 @@
         <svg class="icon-x is-hidden" width="24" height="24">
             <use href="./img/symbol-defs.svg#icon-x"></use>
         </svg>
-
-  </header>
+    </div>
+    <div class="tumbler">
+        <svg class="tumbler__icon" width="21" height="21">
+            <use href="./img/symbol-defs.svg#icon-slash"></use>
+        </svg>
+        <label class="switch">
+            <input type="checkbox" class="tumbler__checkbox">
+            <span class="slider round"></span>
+          </label>
+        <svg class="tumbler__icon" width="21" height="21">
+            <use href="./img/symbol-defs.svg#icon-x"></use>
+        </svg>
+    </div>
+</div>
 <!-- ?гамбургер меню -->
 
 </body>
-<!-- <script defer type="module" src="./js/gamburger.js"></script> -->
+<script defer type="module" src="./js/gamburger.js"></script>
 <!-- <script defer type="module" src="./js/test.js"></script> -->
 
 <!-- <script defer type="module" src="./js/study.js"></script> -->

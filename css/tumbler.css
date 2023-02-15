@@ -5,11 +5,15 @@
     left: 6px;
     bottom: 18px;
 }
+.tumbler__icon:not(:first-child) {
+    margin-left: 10px;
+}
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin-left: 10px;
   }
   
   /* Hide default HTML checkbox */

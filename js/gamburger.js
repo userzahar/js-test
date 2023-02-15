@@ -2,6 +2,7 @@ const gamburgerMenu = document.querySelector(".topnav-icon");
 const searchIcon = document.querySelector(".js-icon");
 const iconX = document.querySelector(".icon-x");
 const block = document.getElementById("myLinks");
+const tumbler = document.querySelector(".tumbler");
 let searchInput = document.querySelector(".js-input");
 
 gamburgerMenu.addEventListener("click", onGamburgerClick);
@@ -13,9 +14,10 @@ function onGamburgerClick() {
   gamburgerMenu.classList.add("is-hidden");
   iconX.classList.remove("is-hidden");
   block.classList.remove("is-hidden");
+  tumbler.classList.remove("is-hidden");
   searchIcon.classList.add("is-hidden");
   searchInput.classList.add("is-hidden");
-  searchIcon.classList.remove("search-icon--active"); //??
+  searchIcon.classList.remove("search-icon--active");
 }
 
 function onXClick() {
@@ -23,6 +25,7 @@ function onXClick() {
   gamburgerMenu.classList.remove("is-hidden");
   searchIcon.classList.remove("is-hidden");
   block.classList.add("is-hidden");
+  tumbler.classList.add("is-hidden");
   flag = false;
 }
 
